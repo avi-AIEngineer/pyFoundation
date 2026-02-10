@@ -1,13 +1,15 @@
 ## What this repo is
 A Python foundations portfolio to demonstrate readiness for OMSCS: functions, loops, conditionals, collections, and file I/O.
 
-## Folder structure
-- exercises/: small focused practice programs
-- mini_apps/: small real mini-apps
-- tests/: basic tests
-
-## Progress Log
-See progress_log.md
+## Topics covered
+- Basics (strings, input/output)
+- Conditionals
+- Loops
+- Functions
+- Collections (lists/dicts)
+- File I/O (CSV + text parsing)
+- Mini app: expense tracker
+- Unit tests
 
 ## Folder Structure
 
@@ -37,3 +39,9 @@ pyFoundation/
     __init__.py
     test_exercises.py
   requirements.txt
+
+## How to run
+
+Run any exercise (example):
+```bash
+python exercises/basics/reverse_string.py
